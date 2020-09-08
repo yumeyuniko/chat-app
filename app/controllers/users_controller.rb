@@ -9,7 +9,7 @@ class UsersController < ApplicationController
     else
       render :edit
     end
-  end
+  endrails g model room_user
 
   private
 
